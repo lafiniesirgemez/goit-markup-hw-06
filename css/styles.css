@@ -547,6 +547,10 @@ h3 {
 
 .strategy-li h3 {
   text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.02em;
 }
 
 .strategy-icon-box {
@@ -747,7 +751,7 @@ h3 {
 
 .footer-social .social-link svg {
   fill: #f4f4fd;
- 
+}
 
 .footer-social .social-link:hover,
 .footer-social .social-link:focus {
@@ -1021,7 +1025,6 @@ h3 {
 
 .visually-hidden:checked+.modal-check-label .modal-custom-checkbox .icon-frame {
   opacity: 1;
- 
 }
 
 .visually-hidden {
@@ -1034,6 +1037,7 @@ h3 {
   white-space: nowrap;
   clip-path: inset(100%);
   overflow: hidden;
+}
 
 /* 5. GÖNDER BUTONU */
 
@@ -1104,15 +1108,15 @@ h3 {
   }
 
   .address-desktop {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
     gap: 4px;
-  }
+}
 
   /* Header Container Düzeni */
 
   .header .container {
-    display: flex;
+  display: flex;
     justify-content: flex-start;
     align-items: center;
     padding-top: 0;
@@ -1121,10 +1125,10 @@ h3 {
   }
 
   .nav-desktop .nav-ul {
-    display: flex;
+  display: flex;
     gap: 40px;
     height: 72px;
-    align-items: center;
+  align-items: center;
     padding: 0;
     margin: 0;
     list-style: none;
@@ -1225,11 +1229,12 @@ h3 {
     flex-wrap: wrap;
     gap: 64px 24px;
     justify-content: center;
-    margin: 72px 108px 96px 108px;
+    margin: 0;
   }
 
   .team-li {
     width: calc((100% - 24px) / 2);
+    max-width: 264px;
   }
 
   .team-social-list {
@@ -1311,7 +1316,7 @@ h3 {
   .footer-subscribe {
     text-align: left;
     width: 450px;
-    margin: 0;
+    margin-left: 0;
     padding-top: 0;
   }
 
@@ -1451,6 +1456,8 @@ h3 {
 
   .strategy-li {
     width: calc((100% - 72px) / 4);
+    display: flex;
+    flex-direction: column;
   }
 
   .strategy-li h3 {
@@ -1543,7 +1550,6 @@ h3 {
 
   .footer-main-group {
     gap: 120px;
-  
   }
 
   /* MODAL */
